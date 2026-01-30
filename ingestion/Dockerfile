@@ -8,6 +8,6 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY main.py .
-
-CMD ["python", "main.py"]
+# O comando COPY . . joga TUDO da sua pasta para dentro do container
+# Isso inclui os scripts .py E os arquivos .json mockados
+COPY . .

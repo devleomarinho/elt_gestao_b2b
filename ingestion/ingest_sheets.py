@@ -37,24 +37,24 @@ SCOPES = [
 # Configuração das Planilhas de Origem
 SHEETS_CONFIG = [
     {
-        "sheet_name": "ALCANCE_CONSOLIDADO_LINKEDIN",
-        "sheet_id": "1GzgIKRsBhgxHvo709OpdElHeK0OYdz_zg2hEoG3XnJQ",
-        "tabs": ["ALCANCE_CONSOLIDADO_LINKEDIN_RAW"]
+        "sheet_name": "custos_aquisicao_v2",
+        "sheet_id": "1mKNWvaQ2nxYp5vC84saM-E1cRRVJW6YzRcB9qS9zByQ",
+        "tabs": ["custos_aquisicao_v2"]
     },
     {
-        "sheet_name": "ALCANCE_CONSOLIDADO_CM",
-        "sheet_id": "1XWHOlxJaqWFrkB6n7lq3HLilZnC2S-s5H-nmSelMpYk",
-        "tabs": ["ALCANCE_CONSOLIDADO_CM_RAW"]
+        "sheet_name": "territorios_segmentos",
+        "sheet_id": "1TrXSHySZ_Ct9cPUho6ftwUspA8mixM9GtY0iP7D9rKw",
+        "tabs": ["territorios_segmentos"]
     },
     {
-        "sheet_name": "ALCANCE_CONSOLIDADO_META",
-        "sheet_id": "1hTzFKovdUxpGiwnHmGgvmNa25lepS7PV2mx3slFSAmw",
-        "tabs": ["ALCANCE_CONSOLIDADO_META_RAW"]
+        "sheet_name": "produtos_servicos_v2",
+        "sheet_id": "1nkTA15e4HC10YYyphuxsz_kp7U9F7NZW-1C5W4r0Jeo",
+        "tabs": ["produtos_servicos_v2"]
     },
     {
-        "sheet_name": "ALCANCE_CONSOLIDADO_TIKTOK",
-        "sheet_id": "1v0uNwCr10lSdod7qoSppOd3m3Edpk--OaYPxenv0cpw",
-        "tabs": ["ALCANCE_CONSOLIDADO_TIKTOK_RAW"]
+        "sheet_name": "metas_vendedores_v2",
+        "sheet_id": "1qlEOdUBQXD1gyBW0sPsKMXOGP3ub-zWC3br3WHMFrW8",
+        "tabs": ["metas_vendedores_v2"]
     }
 ]
 
