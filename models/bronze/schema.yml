@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: staging
+    database: elt-b2b
+    schema: staging
+    tables:
+      - name: crm_activities
+      - name: crm_contacts
+      - name: crm_deals
+      - name: crm_organizations
+      - name: custos_aquisicao_v2
+      - name: metas_vendedores_v2
+      - name: produtos_servicos_v2
+      - name: territorios_segmentos
+      
