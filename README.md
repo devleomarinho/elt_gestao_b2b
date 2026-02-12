@@ -13,10 +13,11 @@ Este repositório contém um projeto *end-to-end* de Engenharia de Dados focado 
 ## Visão Geral do Projeto
 
 
-Empresas de médio porte frequentemente sofrem com dados fragmentados: vendas no CRM, metas em planilhas e custos de marketing em plataformas isoladas. Este projeto resolve esse problema criando uma **"Single Source of Truth"** (Fonte Única da Verdade), permitindo:
+Empresas de médio porte frequentemente sofrem com dados fragmentados: vendas no CRM, metas em planilhas e custos de marketing em plataformas isoladas. Este projeto resolve esse problema criando uma fonte centralizada e estruturada de dados, permitindo:
 1.  Acompanhamento automático de **Metas vs. Realizado**.
 2.  Cálculo de **ROI e CAC** cruzando dados de Marketing e Vendas.
 3.  Histórico de evolução do funil de vendas (**SCD Type 2**).
+4.  Eliminação de processos manuais, sujeitos a erro humano
 
 ### Arquitetura da Solução
 O projeto opera no modelo **Serverless Scale-to-Zero**, garantindo custo operacional próximo a zero, funcionando dentro do Free Tier dos serviços da Google Cloud.
