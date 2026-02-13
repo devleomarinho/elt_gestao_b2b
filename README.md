@@ -48,6 +48,7 @@ O projeto opera no modelo **Serverless Scale-to-Zero**, garantindo custo operaci
 ### Tech Stack e Destaques Técnicos
 
 **1. Ingestão** 
+
 - Python: Scripts preparados para execução no Google Cloud Run para conexão com APIs e planilhas.
 
 - Docker: Containerização para garantir reprodutibilidade do ambiente.
@@ -57,6 +58,7 @@ O projeto opera no modelo **Serverless Scale-to-Zero**, garantindo custo operaci
 - Google Cloud Storage: Data Lake para armazenamento de dados brutos (JSON).
 
 **2. Transformação**
+
 dbt (Data Build Tool): Modelagem de dados modular.
 
 Arquitetura Medalhão:
@@ -71,7 +73,7 @@ Arquitetura Medalhão:
 
 - Snapshots: Rastreamento de mudanças históricas no funil de vendas.
 
-***Como Executar o Projeto***
+**Como Executar o Projeto**
 
 Pré-requisitos:
 
@@ -81,7 +83,8 @@ Pré-requisitos:
 
 - Google Cloud CLI instalada.
 
-Passo 1: Ingestão
+#### Passo 1: Ingestão ####
+
 Após clonar o repositório, navegue até a pasta ingestion/ e faça o build da imagem Docker:
 
 ```
@@ -101,7 +104,8 @@ gcloud run jobs create job-crm --image gcr.io/SEU_PROJECT_ID/ingestao-b2b:v1 --c
 gcloud run jobs execute job-crm
 ```
 
-Passo 2: Transformação (dbt)
+#### Passo 2: Transformação (dbt) ####
+
 No dbt Cloud (ou Core), configure a conexão com o BigQuery e execute:
 
 ```
@@ -126,5 +130,6 @@ Este projeto foi desenhado para rodar dentro do Free Tier da GCP para volumes de
 - BigQuery: Grátis (10GB armazenamento + 1TB query/mês).
 
 ### Contato
+
 - Projeto desenvolvido por Leonardo Marinho.
 [LinkedIn](https://www.linkedin.com/in/devleomarinho/) | [Email](dev.leomarinho@gmail.com)
