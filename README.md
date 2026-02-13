@@ -22,17 +22,8 @@ Empresas de médio porte frequentemente sofrem com dados fragmentados: vendas no
 ### Arquitetura da Solução
 O projeto opera no modelo **Serverless Scale-to-Zero**, garantindo custo operacional próximo a zero, funcionando dentro do Free Tier dos serviços da Google Cloud.
 
-```mermaid
-graph LR
-    A[Google Sheets] -->|Python + Cloud Run| B(BigQuery Raw)
-    C[API CRM ] -->|Python + Cloud Run| D[GCS Data Lake]
-    D -->|Load Job| B
-    B -->|dbt Cloud| E[Bronze: Staging]
-    E -->|dbt Cloud| F[Silver: Star Schema]
-    F -->|dbt Cloud| G[Gold: Analytics]
-    G -->|Power BI| H[Dashboards]
-```
----
+<img width="6235" height="2115" alt="diagram" src="https://github.com/user-attachments/assets/ee9917c6-c0e1-4dd2-a839-b0c657ad756e" />
+
 ### Estrutura do Repositório
 
 ```
